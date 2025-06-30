@@ -284,7 +284,7 @@ const addSolved = async () => {
                 <br />
                 🤍 Development, Idea & Debugging: <a href="https://dwaidatta.in/" target="_blank">Dwaipayan Datta</a>
                 <br />
-                💚 Testing: <a href="#" target="_blank">Abhi Pal</a>, <a href="#" target="_blank">Agniva Hait</a>, <a href="https://dwaidatta.in/" target="_blank">Dwaipayan Datta</a>
+                💚 Testing: <a>Abhi Pal</a>, <a>Agniva Hait</a>, <a href="https://dwaidatta.in/" target="_blank">Dwaipayan Datta</a>
               </p>
             </div>
             <div className="login-ftr-btns">
@@ -348,7 +348,7 @@ const addSolved = async () => {
             <br />
             🤍 Development, Idea & Debugging: <a href="https://dwaidatta.in/" target="_blank">Dwaipayan Datta</a>
             <br />
-            💚 Testing: <a href="#" target="_blank">Abhi Pal</a>, <a href="#" target="_blank">Agniva Hait</a>, <a href="https://dwaidatta.in/" target="_blank">Dwaipayan Datta</a>
+            💚 Testing: <a>Abhi Pal</a>, <a>Agniva Hait</a>, <a href="https://dwaidatta.in/" target="_blank">Dwaipayan Datta</a>
           </p>
         </div>
         <div className={`status-bar ${statusMsg.type}`}>

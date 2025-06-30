@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "STACK DSA Uploader",
   "version": "1.0.0",
-  "description": "Upload LeetCode/GFG solved problems to STACK DSA Tracker",
+  "description": "Upload LeetCode solved problems to STACK DSA Tracker",
   "permissions": ["scripting", "storage"],
   "host_permissions": ["https://leetcode.com/progress/*"],
   "icons": {
