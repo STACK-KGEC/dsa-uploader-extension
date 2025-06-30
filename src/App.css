@@ -1,0 +1,270 @@
+/* App.css */
+body{
+    background: #f3f4f6;
+    padding: 0 28px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    font-size: 14px;
+    overflow-y: auto;
+    color: black !important;
+}
+
+.popup-root {
+  width: 500px;
+  min-height: 500px;
+  margin: auto auto;
+  padding: 20px 0;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 8px;
+  box-sizing: border-box;
+}
+
+.header-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.brand {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.header-title {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #262626;
+}
+
+.version {
+  font-size: 0.8rem;
+  color: #888;
+  margin-left: 10px;
+}
+
+.user-row {
+  display: flex;
+  font-size: 0.8rem;
+  align-items: center;
+  width: 100%;
+  gap: 8px;
+}
+
+.user-email {
+  font-size: 0.8rem;
+  color: #4f46e5;
+  background: #e0e7ff;
+  border-radius: 6px;
+  padding: 2px 8px;
+}
+
+.opensource-btn, .report-issue-btn {
+  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  background: #ffffff;
+  color: #4f46e5;
+  border: 1px solid #4f46e5;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.logout-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #ffeeee;
+  color: #ff0000;
+  border: 1px solid #ff0000;
+  border-radius: 6px;
+  padding: 4px 10px;
+  font-size: 0.8rem;
+  font-weight: normal;
+  cursor: pointer;
+}
+
+.os-dwaidatta{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
+  font-size: 0.8rem;
+  align-items: center;
+  width: 100%;
+  margin: 6px auto;
+  border: 1px solid #2563eb;
+  line-height: 1.8;
+}
+
+.os-dwaidatta a {
+  text-decoration: underline;
+  color: #2563eb;
+}
+
+.status-bar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 22px;
+  margin-bottom: 8px;
+  text-align: left;
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: #059669;
+
+  gap: 6px;
+}
+
+.status-bar.error {
+  color: #dc2626;
+}
+
+.status-bar.loading {
+  color: #6366f1;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  padding: 30px 0;
+  width: 100%;
+  height: 100%;
+}
+
+.login-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 6px;
+}
+
+.login-title {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #4f46e5;
+}
+
+.input-field {
+  padding: 12px;
+  border-radius: 6px;
+  border: 1px solid #d1d5db;
+  background: #ffffff;
+  font-size: 0.8rem;
+  color: black !important;
+}
+
+.input-field:focus {
+  outline: 2px solid #6366f1;
+  background: #fff;
+}
+
+.login-footer {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8rem;
+  margin: 20px auto;
+}
+
+.login-ftr-btns {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin: 8px auto 0;
+}
+
+.login-ftr-btns button{
+  width: 100%;
+  padding: 10px auto;
+}
+
+
+.action-btn {
+  width: 100%;
+  background: #4f46e5;
+  color: #fff;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  padding: 10px;
+  font-size: 0.8rem;
+  cursor: pointer;
+  transition: background 0.15s;
+  margin-top: 10px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-btn:disabled {
+  background: #a5b4fc;
+  cursor: not-allowed;
+}
+
+.table-wrap {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #0001;
+  margin-top: 18px;
+  padding: 14px 10px 10px 10px;
+}
+
+.problems-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.6rem;
+}
+
+.problems-table th, .problems-table td {
+  padding: 8px 6px;
+  text-align: left;
+}
+
+.problems-table th {
+  color: #6366f1;
+  font-weight: 600;
+  border-bottom: 2px solid #e5e7eb;
+}
+
+.problems-table tr:nth-child(even) {
+  background: #f3f4f6;
+}
+
+.problems-table a {
+  color: #2563eb;
+  text-decoration: underline;
+  font-size: 0.6rem;
+}
+
+.progress-bar-wrap {
+  margin-top: 10px;
+}
+
+progress {
+  width: 100%;
+  height: 10px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+
+
