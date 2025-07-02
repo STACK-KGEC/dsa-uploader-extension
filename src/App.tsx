@@ -12,7 +12,7 @@ type Problem = {
   status: string;
 };
 
-const EXTENSION_VERSION = "v1.0.0";
+const EXTENSION_VERSION = "v1.0.1";
 
 function normalizeDate(dateStr: string): string {
   const now = new Date();
